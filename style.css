@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-width: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-wrapper{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: start;
+    height: 90vh;
+}
+
+.instagram-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    background-size: 454px 618px
+}
+
+
+
+.instagram-login{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: rgb(211, 211, 211) solid 1px;
+    width: 100%;
+    padding: 1.3rem 0;
+    margin-bottom: 10px;
+}
+
+.group:nth-child(1){
+    width: 350px;
+    height: 380px;
+}
+
+.group:nth-child(2){
+    width: 350px;
+    height: 63px;
+}
+
+.instagram-logo{
+    width: 250px;
+    height: 80px;
+    margin: 22px auto 12px;
+}
+
+#instagram-login{
+    background-color: #0095f6;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 115px;
+    display: flex;
+    border-radius: 4px;
+}
+
+#user-login{
+    width: 268px;
+    height: 38px;
+    margin: 0;
+    padding: 0;
+    border: rgb(201, 201, 201) solid 1px;
+    border-radius: 4px;
+}
+
+#user-password{
+    width: 268px;
+    height: 38px;
+    margin: 0;
+    padding: 0;
+    border: rgb(201, 201, 201) solid 1px;
+    border-radius: 4px;
+    
+}
+
+ul{
+    list-style: none;
+}
+.facebook-icon{
+    position: relative;
+    margin: 10px 0px;
+    text-align: center;
+    padding: 0;
+    margin-left: 0;
+}
+.facebook-icon::before{
+    content: '';
+    position: relative;
+    left: 0;
+    top: 0;
+    padding: 5px 15px;
+    background-image: url("img/facebook-icon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 3px;
+}
+
+.facebook-login{
+    color: #3b5998;
+}
+
+.signup{
+    color: #0095f6;
+}
+
+.text{
+    color:rgb(25, 25, 99);
+    font-size: 12px;
+}
+
+.text2{
+    color: black;
+}
+
+.division{
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.get-the-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download{
+    display: inline-block;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+#button-app-store{
+    margin-top: 20px;
+    width: 136px;
+    height: 40px;
+    background-size: cover;
+    
+}
+#button-play-store{
+    width: 136px;
+    height: 40px;
+    background-size: cover;
+}
+
+footer{
+    position: absolute;
+    bottom:0 ;
+    width:100%;
+    height:130px; 
+}
+
+.footer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    margin-bottom: 5px;
+
+}
+
+.footer:nth-child(3){
+    color:grey;
+    margin-top: 20px;
+}
+
+.links{
+    color: grey;
+    margin-right: 10px;
+    font-size: 12px;
+}
